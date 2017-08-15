@@ -1,0 +1,23 @@
+.input-select {
+    position: relative;
+}
+.input-select-items {
+    min-height: 25px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+}
+.input-select-items.input-select-closed {
+    display: none;
+}
+.input-select-items .input-select-item {
+    line-height: 25px;
+    padding: 0px 10px;
+    cursor: default;
+}
+.input-select-items .input-select-item:hover {
+    background-color: #eee;
+}
